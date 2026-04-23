@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+</head>
+<body>
+    <h1>User Information Form</h1>
+    <form action="results.html.html" method="get">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" required>
+        </div>
+        
+        <div>
+            <label>Gender</label>
+            <label><input type="radio" name="gender" value="Male"> Male</label>
+            <label><input type="radio" name="gender" value="Female"> Female</label>
+        </div>
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+
+        <div>
+            <label>Level</label>
+            <label><input type="radio" name="level" value="100"> 100 Level</label>
+            <label><input type="radio" name="level" value="200"> 200 Level</label>
+            <label><input type="radio" name="level" value="300"> 300 Level</label>
+            <label><input type="radio" name="level" value="400"> 400 Level</label>
+            <label><input type="radio" name="level" value="500"> 500 Level</label>
+        </div>
+        
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
