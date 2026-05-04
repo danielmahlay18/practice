@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size:4em ;
+    text-align: center;
+    border-radius: 15px;
+    padding: 4%;
+    color: beige;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: blue;
+}
+#box4{
+    background-color: yellow;
+}
