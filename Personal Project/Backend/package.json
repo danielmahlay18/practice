@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this project is for tutorial to backend",
+  "repository": {
+    "type": "git",
+    "url": "personal project"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
